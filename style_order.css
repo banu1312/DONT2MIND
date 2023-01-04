@@ -1,0 +1,488 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.site-header{
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    
+}
+.site-header{
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    
+}
+.site-header  nav{
+    position: sticky;
+    display: flex;
+}
+.site-header  nav h1{
+    margin-left: 5%;
+    color: #e5e5e5;
+}
+.site-header .container{
+    margin-left: 45%;
+    display: flex  ;
+    list-style: none;
+   
+}
+.site-header .container li{ 
+   padding: 15px 10px;
+}
+.site-header .container li:hover{
+    border: 1px solid #5d6d7e;
+    border-radius: 5px;
+}
+.site-header .container a{
+    
+    color: #e5e5e5;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .15s ease-in-out;
+}
+
+
+.active1,.site-header .container a:hover{
+    color: #5d6d7e;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .15s ease-in-out;
+}
+.nav {
+    display: flex;
+}
+.nav h2{
+    margin-top: 2%;
+    margin-left: 5%;
+    text-shadow: 1px 1px #3f3d3d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav .container{
+
+    display: flex  ;
+    list-style: none;
+    
+    margin-left: 13%;
+}
+
+.nav .container li{
+    margin-top: 2%;
+width: 140px;
+   margin-left: 5%;
+}
+.nav .container a{
+    color: #5d6d7e;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color .15s ease-in-out;
+}
+.nav .container a:hover{
+    color: #3f3d3d;
+    text-decoration: underline;
+    font-size: 18px;
+    transition: color .15s ease-in-out;
+}
+.order-list .order1
+{
+    padding: 2%;
+    background-color: #e5e5e5;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.order-list .order1 .top{
+    margin-left:   2% ;
+    box-shadow: 3px 3px 1px #213243;
+    display: flex;
+}
+.order-list .order1 .top ul {
+    margin-top: 0%;
+    margin-left: 70%;
+}
+.order-list .order1 .top ul li{
+    list-style: none;
+}
+.order-list .order1 .middle {
+    display: flex;
+}
+
+.order-list .order1 .middle img{
+    width: 100px;
+    height: 65px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.order-list .order1 .middle ul{
+    margin-top: 3%;
+   
+}
+.order-list .order1 .middle ul li{
+    list-style: none;
+   
+}
+.order-list .order1 .middle .second{
+    margin-left: 10% ;
+   
+}
+.order-list .order1 .bot{
+   display: flex;
+   margin-top: 5%;
+    margin-left: 65%;
+   border-top: 1px solid #5d6d7e;
+}
+.order-list .order1 .bot ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.order-list .order1 .bot .third li caption{
+    font-style: italic;
+    font-size: 30px;
+ }
+.order-list .order1 .bot .fourth li button{
+    padding: 10px 20px;
+    background: #5d6d7e;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+ }
+.order-list .order2
+{
+    padding: 2%;
+    background-color: #e5e5e5;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.order-list .order2 .top{
+    margin-left:   2% ;
+    box-shadow: 3px 3px 1px #213243;
+    display: flex;
+}
+.order-list .order2 .top ul {
+    margin-top: 0%;
+    margin-left: 70%;
+}
+.order-list .order2 .top ul li{
+    list-style: none;
+}
+.order-list .order2 .middle {
+    display: flex;
+}
+
+.order-list .order2 .middle img{
+    width: 100px;
+    height: 65px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.order-list .order2 .middle ul{
+    margin-top: 3%;
+   
+}
+.order-list .order2 .middle ul li{
+    list-style: none;
+   
+}
+.order-list .order2 .middle .second{
+    margin-left: 10% ;
+   
+}
+.order-list .order2 .bot{
+   display: flex;
+   margin-top: 5%;
+    margin-left: 65%;
+   border-top: 1px solid #5d6d7e;
+}
+.order-list .order2 .bot ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.order-list .order2 .bot .third li caption{
+    font-style: italic;
+    font-size: 30px;
+ }
+.order-list .order2 .bot .fourth li button{
+    padding: 10px 20px;
+    background: #5d6d7e;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+ }
+.order-list .order3
+{
+    padding: 2%;
+    background-color: #e5e5e5;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.order-list .order3 .top{
+    margin-left:   2% ;
+    box-shadow: 3px 3px 1px #213243;
+    display: flex;
+}
+.order-list .order3 .top ul {
+    margin-top: 0%;
+    margin-left: 70%;
+}
+.order-list .order3 .top ul li{
+    list-style: none;
+}
+.order-list .order3 .middle {
+    display: flex;
+}
+
+.order-list .order3 .middle img{
+    width: 100px;
+    height: 65px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.order-list .order3 .middle ul{
+    margin-top: 3%;
+   
+}
+.order-list .order3 .middle ul li{
+    list-style: none;
+   
+}
+.order-list .order3 .middle .second{
+    margin-left: 10% ;
+   
+}
+.order-list .order3 .bot{
+   display: flex;
+   margin-top: 5%;
+    margin-left: 65%;
+   border-top: 1px solid #5d6d7e;
+}
+.order-list .order3 .bot ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.order-list .order3 .bot .third li caption{
+    font-style: italic;
+    font-size: 30px;
+ }
+.order-list .order3 .bot .fourth li button{
+    padding: 10px 20px;
+    width: 110px;
+    background: #5d6d7e;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+ }
+.order-list .order4
+{
+    padding: 1%;
+    background-color: #e5e5e5;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.order-list .order4 .top{
+    margin-left:   2% ;
+    box-shadow: 3px 3px 1px #213243;
+    display: flex;
+}
+.order-list .order4 .top ul {
+    margin-top: 0%;
+    margin-left: 70%;
+}
+.order-list .order4 .top ul li{
+    list-style: none;
+}
+.order-list .order4 .middle {
+    display: flex;
+}
+
+.order-list .order4 .middle img{
+    width: 100px;
+    height: 65px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.order-list .order4 .middle ul{
+    margin-top: 3%;
+   
+}
+.order-list .order4 .middle ul li{
+    list-style: none;
+   
+}
+.order-list .order4 .middle .second{
+    margin-left: 10% ;
+   
+}
+.order-list .order4 .bot{
+   display: flex;
+   margin-top: 5%;
+    margin-left: 65%;
+   border-top: 1px solid #5d6d7e;
+}
+.order-list .order4 .bot ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.order-list .order4 .bot .third li caption{
+    font-style: italic;
+    font-size: 30px;
+ }
+.order-list .order4 .bot .fourth li button{
+    padding: 10px 20px;
+    background: #5d6d7e;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+ }
+.order-list .order5
+{
+    padding: 2%;
+    background-color: #e5e5e5;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.order-list .order5 .top{
+    margin-left:   2% ;
+    box-shadow: 3px 3px 1px #213243;
+    display: flex;
+}
+.order-list .order5 .top ul {
+    margin-top: 0%;
+    margin-left: 70%;
+}
+.order-list .order5 .top ul li{
+    list-style: none;
+}
+.order-list .order5 .middle {
+    display: flex;
+}
+
+.order-list .order5 .middle img{
+    width: 100px;
+    height: 65px;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+.order-list .order5 .middle ul{
+    margin-top: 3%;
+   
+}
+.order-list .order5 .middle ul li{
+    list-style: none;
+   
+}
+.order-list .order5 .middle .second{
+    margin-left: 10% ;
+   
+}
+.order-list .order5 .bot{
+   display: flex;
+   margin-top: 5%;
+    margin-left: 65%;
+   border-top: 1px solid #5d6d7e;
+}
+.order-list .order5 .bot ul{
+    display: flex;
+    list-style: none;
+    
+ }
+.order-list .order5 .bot .third li caption{
+    font-style: italic;
+    font-size: 30px;
+ }
+.order-list .order5 .bot .fourth li button{
+    padding: 10px 15px;
+    background: #5d6d7e;
+    color: #e5e5e5;
+    border: none;
+    border-radius: 15px;
+ }
+ .footer {
+    
+    height: 150px;
+    width: 1519px;
+    background-color: rgba(0, 0, 0, .85);
+    border-bottom: 5px solid #5d6d7e;
+}
+
+
+.footer .helpcenter table{
+   margin-left: 5%;
+
+    width: 700px;
+   
+    margin-top: 2%;
+}
+.footer .helpcenter table tr{
+    text-align: center;
+    width: 500px;
+}
+.footer .helpcenter table tr th{
+    color: #e5e5e5;
+}
+.footer .helpcenter table tr td a{
+    color: #e5e5e5;
+    text-decoration: none;
+}
+.footer .helpcenter table tr td a:hover{
+    color: #706e6e;
+    text-decoration: none;
+}
+.footer_content{
+    display: flex;
+   
+}
+.footer .footer_content .sosmed{
+    margin-top: 1%;
+    margin-left: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e5e5e5;
+   
+}
+.sosmed ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-top: 4%;
+}
+.sosmed ul li a{
+    margin-left: 5%;
+    text-decoration: none;
+    color: #e5e5e5;
+}
+.sosmed ul li a:hover{
+    margin-left: 5%;
+    text-decoration: none;
+    color: #5d6d7e;
+}
+.sosmed ul li img {
+    width: 25px;
+    height: 25px;
+}
+.copywrite{
+    background-color: #e5e5e5;
+    height: 90px;
+    margin-top: 0;
+}
+.copywrite .capt{
+   opacity: 0;
+    margin-left: 5%;
+}
+.copywrite ul li {
+    color: #606264;
+    list-style: none;
+}
+
